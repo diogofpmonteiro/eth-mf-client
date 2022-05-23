@@ -20,15 +20,15 @@ const App = () => {
   const [characterNFT, setCharacterNFT] = useState();
   const [isLoading, setIsLoading] = useState(false);
 
-  const checkNetwork = async () => {
-    try {
-      if (window.ethereum.networkVersion !== "4") {
-        alert("Please connect to Rinkeby!");
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  // const checkNetwork = async () => {
+  //   try {
+  //     if (window.ethereum.networkVersion !== "4") {
+  //       alert("Please connect to Rinkeby!");
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
 
   const checkIfWalletIsConnected = async () => {
     try {
