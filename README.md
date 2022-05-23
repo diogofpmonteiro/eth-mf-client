@@ -8,3 +8,4 @@ features to be added:
 - maybe add in critical-hit chance (using chainlink)
 
 check out the result at:
+https://medieval-fighters.vercel.app/
